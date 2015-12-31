@@ -1,6 +1,6 @@
 html {
-	background-color: #000000;
-	background-image: url("file:///C:/Users/Denise/Documents/html/bench.jpg"); /*no-repeat center center fixed	*/
+	/*background-color: #000000;*/
+	background-image: url("bench.jpg"); /*no-repeat center center fixed	*/
 	background-repeat: no-repeat; /*repeat-y would let me repeat it over the y axis*/
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -28,4 +28,39 @@ img.bg {
 	float: bottom;
 	float: right;
 	color: #FFFFFF;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #635b30;
+}
+ 
+.nav a.active {
+  color: #444444;  
+  cursor: default; /* cursor will change when it is over link */
+}
+ 
+.nav li {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	line-height: 35px;
+	display: inline-block;
+	margin-right: 15px;
+	height: 35px;
+	/*border-bottom: 1px solid #888;*/
 }
