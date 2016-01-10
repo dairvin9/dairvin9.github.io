@@ -37,7 +37,7 @@ img.bg {
 .nav ul {
   list-style: none;
   background-color: #444;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
 }
