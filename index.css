@@ -38,7 +38,8 @@ img.bg {
   list-style: none;
   background-color: #444;
   text-align: left;
-  padding: 15;
+  /*padding: 15;*/
+  padding-left: 10px;
   margin: 0;
 }
 
